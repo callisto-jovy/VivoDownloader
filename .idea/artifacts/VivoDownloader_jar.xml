@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VivoDownloader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VivoDownloader_jar</output-path>
+    <root id="archive" name="VivoDownloader.jar">
+      <element id="module-output" name="VivoDownloader" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Libraries/jsoup-1.13.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
