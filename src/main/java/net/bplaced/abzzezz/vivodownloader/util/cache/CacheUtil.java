@@ -171,6 +171,15 @@ public class CacheUtil extends JSONObject {
     }
 
     /**
+     * Removes an object from the cache
+     * @param key key to be removed
+     */
+    public void removeFromCache(final String key) {
+        if (cached(key)) {
+            remove(key);
+        }
+    }
+    /**
      * Caches an object with a key and infinite expiration date
      *
      * @param key key
